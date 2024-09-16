@@ -181,7 +181,7 @@ else
   setpath "product" "serverDataFolderName" ".IDE123"
   setpath "product" "darwinBundleIdentifier" "com.IDE123"
   setpath "product" "win32AppUserModelId" "IDE123.IDE123"
-  setpath "product" "win32DirName" "123IDE"
+  setpath "product" "win32DirName" "IDE123"
   setpath "product" "win32MutexName" "IDE123"
   setpath "product" "win32NameVersion" "IDE123"
   setpath "product" "win32RegValueName" "IDE123"

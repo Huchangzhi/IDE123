@@ -24,7 +24,7 @@ on:
     - '**/*.md'
 
 env:
-  APP_NAME: 123IDE
+  APP_NAME: IDE123
   ASSETS_REPOSITORY: ${{ github.repository }}
   OS_NAME: windows
   VERSIONS_REPOSITORY: ${{ github.repository_owner }}/versions
