@@ -94,6 +94,7 @@ jobs:
       - name: Prepare assets
         run: ./prepare_assets.sh
         if: env.SHOULD_BUILD == 'yes' && (env.SHOULD_DEPLOY == 'yes' || github.event.inputs.generate_assets == 'true')
+        continue-on-error: true
 
       - name: Release
         env:
